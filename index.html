@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var specification =prompt("which processor do you want?","i3,i5 or i7")
+        if(specification == "i3" || specification=="i5" || specification=="i7"){
+            if(specification=="i3" || specification=="i5" || specification=="i7"){
+            var gen =prompt("which generation do you want?","1st gen or 2nd gen")
+            if(gen == "1st gen" || gen =="2nd gen"){
+               var hard_drive = prompt("how much hdd do you want?" ,"hdd500 or hdd1tb")
+               var hdd500 = 25000;
+               var hdd1tb = 30000;
+               if(hard_drive == "hdd500"){
+                alert("pay" + hdd500 + "RS")
+               }
+               else{
+                alert("pay" + hdd1tb + "RS")
+               }
+
+            }
+            else{
+                alert("others generation not available!")
+            }
+        }
+        }
+    </script>
+</body>
+</html>
